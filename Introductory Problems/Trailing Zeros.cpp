@@ -18,9 +18,9 @@ Problem link: https://cses.fi/problemset/task/1618/
 typedef long long ll;
 using namespace std;
 
-ll cnt = 0;
+int cnt = 0;
 
-ll trailling_zeroes(int n){
+int trailling_zeroes(int n){
 	for (int i = 5; n / i >= 1; i *= 5) {
 		cnt += n / i;
 	}
