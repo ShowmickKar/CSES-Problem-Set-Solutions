@@ -1,4 +1,5 @@
 Problem link: https://cses.fi/problemset/task/1618/
+Solution Explanation: https://brilliant.org/wiki/trailing-number-of-zeros/
 
 #include <bits/stdc++.h>
 #define INF 1e9
